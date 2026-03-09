@@ -37,7 +37,7 @@ Edit the constants at the top of the script:
 
 1. Place your images in a folder (e.g., `./img`).
 2. Open **GIMP 3.0**.
-3. Go to **Filters > Python-Fu > Console**.
+3. Go to **Filters -> Development -> Python-Fu -> Python Console**.
 4. Run the script:
    ```python
    exec(open("/path/to/batch_collage_gimp_3.0.py").read())
