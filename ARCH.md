@@ -25,6 +25,11 @@ gimp_3_img_grid/
 ├── .githooks/  — git hook infrastructure: a `pre-commit` script that auto-regenerates `ARCH.md` on every commit, plus the `gen_arch.py` generator it calls.
 │   ├── gen_arch.py
 │   └── pre-commit
+├── docs/
+│   └── agents/
+│       ├── domain.md
+│       ├── issue-tracker.md
+│       └── triage-labels.md
 ├── img/  — sample input images (stock photos from Kaboompics) used to demonstrate and test the collage script.
 │   ├── kaboompics_a-woman-works-at-a-desk-with-a-laptop-and-a-cup-of-coffee-9296.jpg
 │   ├── kaboompics_beautiful-baltic-sea-views-backgrounds-and-wallpapers-22459.jpg
@@ -72,5 +77,5 @@ gimp_3_img_grid/
 └── README.md  — user-facing documentation covering features, configuration constants, usage steps, and a visual explanation of the grid layout.
 ```
 
-_Generated 2026-05-23 02:05 UTC · 45 files · 3 directories._
+_Generated 2026-07-14 18:31 UTC · 48 files · 5 directories._
 <!-- ARCH:TREE:END -->
